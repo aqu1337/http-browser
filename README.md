@@ -2,7 +2,7 @@
 
 # Tree
 * [Read this Pls](#plz-%EF%B8%8F)
-* [Stanley Info](BROWSER-STORM-Info)
+* [browser-storm Info](BROWSER-STORM-Info)
 * [Setup](#Setup)
 * [Credits](#Credits)
 * [T.O.S](#TOS)
