@@ -2,8 +2,9 @@
 
 # Tree
 * [Read this Pls](#plz-%EF%B8%8F)
-* [browser-storm Info](BROWSER-STORM-Info)
+* [browser-storm Info](BROWSER-STORM)
 * [Setup](#Setup)
+* [Usage](#Usage)
 * [Credits](#Credits)
 * [T.O.S](#TOS)
 
@@ -29,6 +30,11 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key ad
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 sudo apt update -y; sudo apt install google-chrome-stable -y; wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb; sudo apt install ./google-chrome-stable_current_amd64.deb;
 
+```
+
+# Usage
+```sh
+node HTTP-BROWSER.js --key=LICENSE-MAINHSJS --time=10000 --threads=1  --requests=1 --mode=GET --proxy=socks4.txt --target=
 ```
 
 # Credits
